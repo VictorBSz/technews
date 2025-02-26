@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+/* CORES */
+    /* Produto */
+    --brand-light: #60a5fa;
+    --brand-dark: #1d4ed8;
+
+    /* Base */
+    --bg-color: #0f172a;
+    --stroke-color: #1e293b;
+
+    /* Textos */
+    --text-primary: #f1f5f9;
+    --text-secondary: #cbd5e1;
+
+/* FONTES */
+    --font-family: "Archivo", serif;
+    --text-h1: 24px/135% 800 var(--font-family);
+    --text-h2: 16px/140% 800 var(--font-family);
+    --text-h3: 14px/140% 800 var(--font-family);
+    --text-span: 14px/145% 600 var(--font-family);
+    --text: 16px/160% 600 var(--font-family);
+    --text-sm: 14px/160% 400 var(--font-family);
+}
+
+body {
+    font: var(--text);
+    color: var(--text-primary);
+    background-color: var(--bg-color);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: var(--brand-light)
+}
+
+h1, h2, h3 {
+    font: inherit;
+}
